@@ -13,6 +13,7 @@ public class BinaryTree<T> {
     this.left = new BinaryTree<>(value);
     return this;
   }
+
   public BinaryTree<T> setRight(T value) {
     this.right = new BinaryTree<>(value);
     return this;
